@@ -11,7 +11,7 @@
             color: #fff;
             font-family: Arial, sans-serif;
             text-align: center;
-            padding: 40px;
+            padding: 40px 20px;
         }
         img.cover {
             width: 300px;
@@ -20,32 +20,54 @@
             box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
         }
         h1 {
-            font-size: 28px;
-            margin-bottom: 10px;
+            font-size: 32px;
+            margin-bottom: 5px;
         }
         h2 {
-            font-size: 18px;
+            font-size: 20px;
             font-weight: normal;
-            margin-bottom: 30px;
+            margin-bottom: 25px;
             color: #aaa;
         }
-        a.button {
+        p.subtitle {
+            font-style: italic;
+            color: #ccc;
+            margin-bottom: 30px;
+        }
+        .buttons a {
             display: inline-block;
+            margin: 10px;
             background-color: #1DB954;
             color: #fff;
             text-decoration: none;
-            padding: 15px 30px;
+            padding: 14px 28px;
             border-radius: 50px;
-            font-size: 18px;
+            font-size: 16px;
             transition: background-color 0.3s ease;
         }
-        a.button:hover {
-            background-color: #17a44b;
+        .buttons a.youtube {
+            background-color: #FF0000;
         }
-        p.footer {
-            margin-top: 50px;
-            font-size: 12px;
-            color: #555;
+        .buttons a:hover {
+            opacity: 0.9;
+        }
+        .social {
+            margin-top: 40px;
+        }
+        .social a {
+            display: inline-block;
+            margin: 10px;
+            color: #1DB954;
+            font-size: 16px;
+            text-decoration: none;
+        }
+        .social a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            margin-top: 60px;
+            font-size: 14px;
+            color: #888;
         }
     </style>
 </head>
@@ -55,12 +77,23 @@
 
     <h1>Il Risveglio del Fuoco</h1>
     <h2>Alessio Mattei</h2>
+    <p class="subtitle">Inno della Rinascita</p>
 
-    <a class="button" href="https://open.spotify.com/intl-it/album/01pga3dK3HLAvyGywc8dR8?si=3BseWlh5RLO1hlioojN0kA" target="_blank">
-        🎧 Ascolta ora su Spotify
-    </a>
+    <div class="buttons">
+        <a href="https://open.spotify.com/intl-it/album/01pga3dK3HLAvyGywc8dR8?si=3BseWlh5RLO1hlioojN0kA" target="_blank">🎧 Ascolta su Spotify</a>
+        <a href="https://youtu.be/fTRdp9rDS60?si=cybLGl-TLjelrbv0" class="youtube" target="_blank">📺 Guarda su YouTube</a>
+    </div>
 
-    <p class="footer">Questa è una pagina promozionale indipendente. Tutti i diritti appartengono all'autore.</p>
+    <div class="social">
+        <p>Contatti e Social:</p>
+        <a href="mailto:matteifg@gmail.com">📩 Email</a>
+        <a href="https://www.instagram.com/federale80" target="_blank">📷 Instagram</a>
+        <a href="https://www.tiktok.com/@bee700k" target="_blank">🎵 TikTok</a>
+    </div>
+
+    <div class="footer">
+        © 2025 Alessio Mattei. Tutti i diritti riservati.
+    </div>
 
 </body>
 </html>
